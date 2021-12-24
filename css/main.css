@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    background-image: url(../img/money-throw-orig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Spline Sans';
+}
+
+
+@font-face {
+    font-family: 'Spline Sans';
+    src: url('../fonts/SplineSans-Medium.woff2') format('woff2'),
+        url('../fonts/SplineSans-Medium.woff') format('woff'),
+        url('../fonts/SplineSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.form__option {
+    font-weight: 500;
+}
+
+.price {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    /* height: 100%; */
+    max-height: 600px;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+}
+
+
+.price__heading {
+    margin: 40px auto 10px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+.form {
+    padding: 48px 0px 200px;
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
